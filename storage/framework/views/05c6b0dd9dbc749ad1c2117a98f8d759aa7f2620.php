@@ -1,0 +1,1 @@
+<?php /**PATH D:\XAMPP\htdocs\ecommerce\resources\views/components/testimonialsdesktopmode.blade.php ENDPATH**/ ?>

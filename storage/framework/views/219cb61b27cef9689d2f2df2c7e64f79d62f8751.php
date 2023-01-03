@@ -1,0 +1,114 @@
+<?php $__env->startSection('title'); ?> Gainloe About Us <?php $__env->stopSection(); ?>
+<?php $__env->startSection('keywords'); ?>   <?php $__env->stopSection(); ?>
+<?php $__env->startSection('description'); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+ 
+<div align="center" style="background:#1CD5E8;padding:20px;">
+<h3  class="black-text" style="font-weight:bold;margin-top:15px;">
+CÂU CHUYỆN VỀ NHÓM 5</h3>
+<p class="white-text" style="font-weight:bold;">  </p>
+  
+
+</div>
+
+<div class="container-fluid" style="background:white;font-family: 'Balsamiq Sans', cursive;">
+    <div class="row px-5"> 
+        <div   class="col-md-12 ">
+            <div align="center">
+               <p class="col-md-4">
+                    <img src="<?php echo e(url('assets/img/Logo3.jpg')); ?>" class="img-fluid">
+                </p>
+            </div>
+              <p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                
+                   </p>  
+<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+<h1 class="black-text" style="font-weight:bold;"> </h1>
+
+    <div align="center">
+               <p class="col-md-4">
+                    <img src="<?php echo e(url('Img/Gallary/1.jpg')); ?>" class="img-fluid">
+                </p>
+    </div>
+ 
+
+<p style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+
+
+</p> 
+ 
+        </div>
+        <div align="center" class="col-md-12">
+        <div class="col-md-8  ">
+            
+<h1 align="center" class="black-text" style="font-weight:bold;">GALLARY</h1>
+
+                                    <!--Carousel Wrapper-->
+                        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                          <!--Indicators-->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                          </ol>
+                          <!--/.Indicators-->
+                          <!--Slides-->
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <div class="view">
+                                    <img class="d-block w-100" src="<?php echo e(url('Img/Gallary/2.jpg')); ?>"
+                                      alt="First slide">
+                                    <div class="mask rgba-black-light"></div>
+                                  </div>
+                                  <div class="carousel-caption">
+                                    <h3 class="h3-responsive"></h3>
+                                    <p></p>
+                                  </div>
+                                </div>
+                              
+                                
+                                  <div class="carousel-item">
+                                  <!--Mask color-->
+                                  <div class="view">
+                                    <img class="d-block w-100" src="<?php echo e(url('')); ?>"
+                                      alt="Third slide">
+                                    <div class="mask rgba-black-slight"></div>
+                                  </div>
+                                  <div class="carousel-caption">
+                                    <h3 class="h3-responsive"> </h3>
+                                    <p> </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          <!--/.Slides -->
+                          <!--Controls-->
+                          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                          <!--/.Controls-->
+                        </div>
+                        <!--/.Carousel Wrapper-->
+        </div>
+        </div>
+        <div align="center" class="col-md-3"> </div>
+         <div align="left"  class="col-md-6 mx-3">
+              <br>    <br>
+                <span class="black-text" style="font-weight:bold;font-size:25px;"> </span> 
+            <span class="black-text" style="font-weight:bold;font-size:25px;"> </span> 
+             
+        </div>
+    </div>
+ <br><br>
+   
+</div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\XAMPP\htdocs\ecommerce\resources\views/about.blade.php ENDPATH**/ ?>
